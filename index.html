@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link of css file -->
+	<link rel="stylesheet" type="text/css" href="stop.css">
+	<title></title>
+</head>
+<body>
+ <!-- container for outer circle -->
+<div class="outer">
+   <!-- container for inner circle-->
+	<div class="inner">
+		<!--element for showing minute timer-->
+		<span class="min">00&nbsp; : &nbsp;</span>
+        <!--element for showing second timer-->
+		<span class="sec">00&nbsp; : &nbsp;</span>
+        <!--element for showing minute timer-->
+		<span class="msec">00</span>
+	</div>
+
+</div>
+<!--div for collection of buttons-->
+<div class="button">
+<button class="btn-btn start">Start</button>
+<button class="btn-btn reset hidden">Reset</button>
+<button class="btn-btn lap hidden">Lap</button>
+<button class="btn-btn stop hidden">Stop</button>
+</div>
+<!--div for containing laps-->
+<div class="laps"></div>
+<!--buttons for clearing the laps-->
+<button class="clear hidden">Clear All</button>
+<script src="stop.js">
+   
+</script>
+</body>
+</html>
